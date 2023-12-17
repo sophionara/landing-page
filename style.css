@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.header-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 100px; 
+    background-color: #1F2937;
+    flex-grow: 1;
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.hero-section{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-secondary-text, .header-link-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.sign-up-button{
+    background-color: rgb(59,130,246);
+    color:white;
+    border-radius: 5px;
+    border: 1px solid rgb(59,130,246);
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.image-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 60px;
+    text-align: center;
+    color: #F9FAF8;
+    background-color:  rgb(109,116,125);
+    
+}
+.random-information-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 120px 50px 120px;
+    gap: 20px;
+    flex-grow: 1;
+    
+}
+.images-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.image-with-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.image-border{
+    border: 2px solid rgb(59,130,246);
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.images-section p{
+    color: rgb(92,101,114);
+    font-size: 18px;
+    text-align: center;
+}
+.information-header-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.quote-section{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 140px 40px 140px;
+    flex-grow: 1;
+  
+}
+.quote-author{
+    align-self: flex-end;
+    font-weight: bold;
+}
+.quote-section p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sign-up-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59,130,246);
+    color: white;
+    border: 1px solid rgb(59,130,246);
+    border-radius: 5px;
+    margin: 40px 100px 40px 100px;
+    padding: 20px 35px 20px 35px;
+    flex-grow: 1;
+}
+
+footer{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px
+
+
+}
